@@ -389,11 +389,6 @@ app.put("/api/items/:id", (req, res) => {
   });
 });
 
-// Create the Server
-app.listen(3000, () => {
-  console.log("Server Started");
-});
-
 // Delete an item
 
 app.delete("/api/items/:id", (req, res) => {
@@ -403,4 +398,9 @@ app.delete("/api/items/:id", (req, res) => {
     if (err) throw err;
     res.send(apiResponse(results));
   });
+});
+
+// Create the Server
+app.listen(3000, () => {
+  console.log("Server Started");
 });
