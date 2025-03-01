@@ -21,4 +21,6 @@ git clone https://github.com/StephaneFotso/node-ec2-rds-1.git
 8. Grap the public ip addres of your EC2 instance and launch the web page
   For example: 54.89.141.134/3000/api/items
 
+  NOTE: I use test.js to explain how i can use the js Async to fetch the content of the API to manipulate data coming from the data base.
+
 
